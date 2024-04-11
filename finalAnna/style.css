@@ -1,0 +1,56 @@
+/* *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   color: black;
+   border: none;
+   font-size: 16px;
+}
+
+body{
+   padding: 10px;
+}
+
+p, h2{
+   margin: 15px 0;
+}
+
+h2{
+   font-size: 30px;
+}
+
+.btndrop{
+   background-color: #4CAF50;
+   color: white;
+   padding: 16px;
+}
+
+.child_menu{
+   width: 160px;
+   box-shadow: 0px 8px 15px 0px grey;
+   position: absolute;
+   top: 50px;
+   display: none;
+}
+
+/* Inline_block это строчные элементы к которым можно применить width, height, paddind */
+/* .dropdown{
+   position: relative;
+   display: inline-block;
+}
+/* а теги которые находятся в элемнете с классом child_menu */
+/* .child_menu a{
+   display: block;
+   padding: 15px;
+} */
+
+/* При наведени на тег а, который находятся в элемнете с классом child_menu, меняем его же стили*/
+/* .child_menu a:hover{
+   background-color: lightgrey;
+} */
+
+/* При наведении на dropdown меняем стили child_menu */
+/* .dropdown:hover .child_menu{
+   display: block;
+} */ 

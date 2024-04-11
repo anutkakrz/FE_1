@@ -1,0 +1,33 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.container {
+   border: 5px solid blue;
+   width: 600px;
+   margin: 0 auto;
+   height: 1500px;
+}
+.container div {
+   color: green;
+   padding: 10px 0;
+   text-align: center;
+}
+.block1 {
+   background-color: aqua;
+}
+.block2 {
+   background-color: rgb(147, 141, 192);
+   /* position: relative;
+   left: 20px;
+   top: 30px; */
+}
+.block3 {
+   background-color: rgba(225, 236, 173, 0.333);
+   /* position: relative;
+   z-index: 10; */
+}
+.block4 {
+   background-color: rgb(225, 191, 143);
+}

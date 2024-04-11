@@ -1,0 +1,18 @@
+ul {
+    list-style: square;
+}
+ul li {
+    color: #488936;
+    font-size: 24px;
+}
+ol li {
+    font-size: 20px;
+}
+table { 
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 10px;
+}

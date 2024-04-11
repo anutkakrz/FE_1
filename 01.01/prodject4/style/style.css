@@ -1,0 +1,31 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+section {
+   background-color: #EEEFF1;
+   padding: 100px 0 135px;
+}
+h1
+{
+   text-align: center;
+}
+p {
+   margin: 50px auto 65px;
+   width: 30%;
+   color: #727272;
+   text-align: center;
+}
+form {
+   width: 30%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+}
+textarea {
+   margin: 20px 0 50px;
+}
+.form-control input {
+   padding: 20px;
+}

@@ -1,0 +1,55 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+section {
+   background-color: #EEEFF1;
+   padding: 100px 0 135px;
+}
+h1
+{
+   text-align: center;
+}
+p {
+   margin: 50px auto 65px;
+   width: 540px;
+   color: #727272;
+   text-align: center;
+}
+form {
+   width: 540px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+}
+.form-control {
+   display: flex;
+   column-gap: 30px;
+   row-gap: 20px;
+}
+textarea {
+   margin: 20px 0 50px;
+}
+.form-control input {
+   padding: 20px;
+   width: 255px;
+   height: 50px;
+   caret-color: #34547A;
+}
+.btn_sub {
+background-color:#34547A ;
+width: 190px; ;
+height: 55px;
+margin: 0 auto;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+letter-spacing: 2.1px;
+}
+.form-control input:focus {
+   border: 1px solid #34537ab6;
+}
