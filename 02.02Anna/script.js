@@ -1,15 +1,5 @@
 // // let   _num1, $num2, num3
 // // camelCase
-// // snack_case
-
-// // number
-// 10, 12.45, -10
-// Infinity, -Infinity, NaN
-// console.log(10/0) //Infinity
-// console.log(-10/0) //-Infinity
-// console.log("John"/20) //NaN
-// console.log("John"*20) //NaN
-
 
 // // string
 // "string", 'string', `string`
